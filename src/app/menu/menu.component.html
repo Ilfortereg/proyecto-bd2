@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Bienvenido al {{ title }}!
+  </h1>
+  <img width="200" alt="Angular Logo" src="http://yigitnot.com/wp-content/uploads/2016/09/Database-300x300.png">
+</div>
+<div style="text-align:center">
+  <h1>¿Que acciones desea realizar?</h1>
+</div>
+
+<div style="text-align:left">
+  <a [routerLink]="[ 'agregar-archivo']">
+  <button id="agregar_empleado_Button" >
+    <img width="80" height="80" alt="Agregar Archivo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUrgEKDjPeWyGwcLNbABJEAvYFvIPP-XzjPvvkCnGxeTr4diUO8g"/>
+  </button>
+  <h4>Agregar Archivo CSV</h4>
+</a>
+
+</div>
+<a [routerLink]="[ 'tipo-empleado']">
+  <button id="mostrar_empleado_Button">
+    <img width="80" height="80" alt="Agregar Archivo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkroz1Fbn7Rr9C_nX8EYZvXSe1Y2pFZ60FpxoKzKvJwd4rC7Y"/>
+  </button>
+  <h4>Mostrar Empleado</h4>
+</a>
